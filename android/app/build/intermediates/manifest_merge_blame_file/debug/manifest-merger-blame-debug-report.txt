@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bluediscover"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/gol/workspace/BlueDiscover/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/gol/workspace/BlueDiscover/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:5:9-71
+13-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:5:26-69
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:6:5-73
+14-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:6:22-71
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:7:5-79
+15-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.54.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.54.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->[:react-native-ble-manager] /Users/gol/workspace/BlueDiscover/node_modules/react-native-ble-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+17-->[:react-native-ble-manager] /Users/gol/workspace/BlueDiscover/node_modules/react-native-ble-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+18
+19    <uses-feature
+19-->[:react-native-ble-manager] /Users/gol/workspace/BlueDiscover/node_modules/react-native-ble-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:36
+20        android:name="android.hardware.bluetooth_le"
+20-->[:react-native-ble-manager] /Users/gol/workspace/BlueDiscover/node_modules/react-native-ble-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-53
+21        android:required="false" />
+21-->[:react-native-ble-manager] /Users/gol/workspace/BlueDiscover/node_modules/react-native-ble-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-33
+22
+23    <application
+23-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:9:5-28:19
+24        android:name="com.bluediscover.MainApplication"
+24-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:10:7-38
+25        android:allowBackup="false"
+25-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:14:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /Users/gol/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:12:7-41
+29        android:label="@string/app_name"
+29-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:11:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:13:7-52
+31        android:theme="@style/AppTheme"
+31-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:15:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/Users/gol/workspace/BlueDiscover/android/app/src/debug/AndroidManifest.xml:7:18-53
+33        <activity
+33-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:16:7-26:18
+34            android:name="com.bluediscover.MainActivity"
+34-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:17:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+35-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:19:9-86
+36            android:label="@string/app_name"
+36-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:18:9-41
+37            android:launchMode="singleTask"
+37-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:20:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:21:9-51
+39            <intent-filter>
+39-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:22:9-25:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:23:13-65
+40-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:23:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:24:13-73
+42-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:24:23-70
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+45-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:27:7-84
+45-->/Users/gol/workspace/BlueDiscover/android/app/src/main/AndroidManifest.xml:27:17-81
+46    </application>
+47
+48</manifest>

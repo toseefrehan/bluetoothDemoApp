@@ -1,0 +1,4 @@
+#Thu Jan 28 23:35:09 PKT 2021
+base.0=/Users/gol/workspace/BlueDiscover/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
